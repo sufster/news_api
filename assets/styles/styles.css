@@ -2,25 +2,6 @@
     padding: 2px 16px;
 }
 
-#searchNav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#searchBar {
-    width: 97%;
-    border-radius: 5px;
-    height: 52px;
-    font-size: 25px;
-}
-
-#searchArt {
-    width: 54px;
-    height: 57px;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: rgb(40, 40, 236);
-}
 #articleCard {
     width: 93%;
 }
@@ -29,31 +10,37 @@
     box-shadow: 0 4px 8px 0 rgba(56, 49, 49, 0.2);
     transition: 0.3s;
     width: 40%;
+    padding: 2px 16px;
 }
 #articles2 {
     box-shadow: 0 4px 8px 0 rgba(56, 49, 49, 0.2);
     transition: 0.3s;
     width: 40%;
+    padding: 2px 16px;
 }
 #articles3 {
     box-shadow: 0 4px 8px 0 rgba(56, 49, 49, 0.2);
     transition: 0.3s;
     width: 40%;
+    padding: 2px 16px;
 }
 #articles4 {
     box-shadow: 0 4px 8px 0 rgba(56, 49, 49, 0.2);
     transition: 0.3s;
     width: 40%;
+    padding: 2px 16px;
 }
 #articles5 {
     box-shadow: 0 4px 8px 0 rgba(56, 49, 49, 0.2);
     transition: 0.3s;
     width: 40%;
+    padding: 2px 16px;
 }
 #articles6 {
     box-shadow: 0 4px 8px 0 rgba(56, 49, 49, 0.2);
     transition: 0.3s;
     width: 40%;
+    padding: 2px 16px;
 }
 #cards {
     display: flex;
@@ -65,23 +52,6 @@ img{
     max-height: 200px;
 }
 
-#select {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-#dropdown {
-    width: 150px;
-    height: 33px;
-    font-size: 23px;
-    font-style: oblique;
-    border-radius: 8px;
-}
-
-#countDrop{
-    width: 165px;
-    height: 33px;
-    font-size: 23px;
-    font-style: oblique;
-    border-radius: 8px;
-}
+body {
+    background-color: black;
+  }

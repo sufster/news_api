@@ -4,17 +4,14 @@ let popCard3 = document.getElementById("articles3");
 let popCard4 = document.getElementById("articles4");
 let popCard5 = document.getElementById("articles5");
 let popCard6 = document.getElementById("articles6");
-let option = document.getElementById("dropdown").value;
-let countryOpt = document.getElementById("countDrop").value
 
 function populate() {
     //assigned variable for api key
     const key = "&apiKey=e9812236a72c43d6855eda46082ae0d8"
     //link for the api to query
-    const link = "https://newsapi.org/v2/top-headlines?"
-    const country = "country=us"
-    const category = "&health"
-    const url = link + country + category + key
+    const link = "https://newsapi.org/v2/top-headlines?country=za"
+    const category = "health"
+    const url = link + key
     const request = new Request(url);
     fetch(request)
     //turns resp into JavaScript object
