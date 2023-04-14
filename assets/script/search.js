@@ -4,7 +4,7 @@ let popCard3_appended = document.getElementById("articles3");
 let popCard4_appended = document.getElementById("articles4");
 let popCard5_appended = document.getElementById("articles5");
 let popCard6_appended = document.getElementById("articles6");
-let searchBar = document.getElementsByName("searchBar");
+let searchBar = document.getElementById("searchBar")
 
 function populate_search() {
     //assigned variable for api key
@@ -12,6 +12,7 @@ function populate_search() {
     //link for the api to query
     const link = "https://newsapi.org/v2/everything?q="
     const url = link + searchBar.value + key
+    console.log(url);
     const request = new Request(url);
     fetch(request)
     //turns resp into JavaScript object
