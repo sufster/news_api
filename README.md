@@ -8,6 +8,7 @@
 # when the code is loaded from the normal file it gives a cors error, using a live server in Atom or visual studio code and changing 127.0.0.1 will fix this error.
 # deployment seems to be an issue because as of 22 May 2020 liberties were changed for free developers.
 # for more information visit: https://answers.netlify.com/t/getting-error-426-from-newsapi-org/16101
+# searching articles is handled by the populate_search function and updates the cards in html document.
 
 # Installation/Usage:
 1. vist: https://github.com/yusalie/newsApi/tree/main
