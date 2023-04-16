@@ -12,14 +12,12 @@ function populate_search() {
     //link for the api to query
     const link = "https://newsapi.org/v2/everything?q="
     const url = link + searchBar.value + key
-    console.log(url);
     const request = new Request(url);
     fetch(request)
     //turns resp into JavaScript object
         .then(resp => resp.json())
         // returns object of the data
-        .then((article) => { 
-            console.log(article);
+        .then((article) => {
             //populates webpage with articles
             //used to create cards
             let popArt = `

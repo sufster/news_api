@@ -18,8 +18,7 @@ function populate() {
     //turns resp into JavaScript object
         .then(resp => resp.json())
         // returns object of the data
-        .then((article) => { 
-            console.log(article);
+        .then((article) => {
             //populates webpage with articles
             //used to create cards
             let popArt = `
